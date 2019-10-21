@@ -1,0 +1,10 @@
+# gi - Git Interpolator
+
+alias it="git"
+alias gti="git"
+
+gi() {
+  first_param_without_leading_t=$(echo "$1" | sed 's/^t//')
+  shift # Remove the first parameter from the list of parameters, $@
+  git "$first_param_without_leading_t" "$@"
+}
