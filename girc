@@ -1,4 +1,5 @@
 # gi - Git Interpolator
+# https://github.com/nathankallman/gi
 
 alias it="git"
 alias gti="git"
