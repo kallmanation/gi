@@ -41,4 +41,4 @@ source path/to/gi/girc
 
 ### By copy and paste
 
-Open the contents of [`girc`](https://github.com/nathankallman/gi/girc) and copy them into your `~/.bashrc` or `~/.zshrc` or similar.
+Open the contents of [`girc`](https://raw.githubusercontent.com/nathankallman/gi/master/girc) and copy them into your `~/.bashrc` or `~/.zshrc` or similar.
