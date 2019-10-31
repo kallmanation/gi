@@ -9,3 +9,9 @@ gi() {
   shift # Remove the first parameter from the list of parameters, $@
   git "$first_param_without_leading_t" "$@"
 }
+
+gt() {
+  first_param_without_leading_i=$(echo "$1" | sed 's/^i//')
+  shift # Remove the first parameter from the list of parameters, $@
+  git "$first_param_without_leading_i" "$@"
+}

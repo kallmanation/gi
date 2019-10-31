@@ -9,6 +9,8 @@ Two aliases `it` and `gti` both mapped to `git`.
 
 The interpolator `gi` which removes a leading `t` from its params before passing them all to `git`.
 
+A similar interpolator `gt` which removes a leading `i` from its params.
+
 ## Examples
 
 ```sh
@@ -23,6 +25,12 @@ $ gi tdiff
 ...
 $ gi push
 # Becomes: git push
+...
+$ gt icommit
+# Becomes: git commit
+...
+$ gt stash
+# Becomes: git stash
 ```
 
 ## Installation
