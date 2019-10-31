@@ -31,7 +31,7 @@ $ gi push
 
 First, clone this repository somewhere on your machine:
 ```sh
-$ git clone git@github.com:nathankallman/gi.git
+$ git clone git@github.com:kallmanation/gi.git
 ```
 
 Then add the following line to your `~/.bashrc` or `~/.zshrc` or similar:
@@ -41,4 +41,4 @@ source path/to/gi/girc
 
 ### By copy and paste
 
-Open the contents of [`girc`](https://raw.githubusercontent.com/nathankallman/gi/master/girc) and copy them into your `~/.bashrc` or `~/.zshrc` or similar.
+Open the contents of [`girc`](https://raw.githubusercontent.com/kallmanation/gi/master/girc) and copy them into your `~/.bashrc` or `~/.zshrc` or similar.
