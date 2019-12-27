@@ -7,9 +7,11 @@ Simple shell configuration to help with simple typos while typing the `git` comm
 
 Two aliases `it` and `gti` both mapped to `git`.
 
-The interpolator `gi` which removes a leading `t` from its params before passing them all to `git`.
+The first interpolator `gi` which removes a leading `t` from its params before passing them all to `git`.
 
 A similar interpolator `gt` which removes a leading `i` from its params.
+
+A set of other interpolators for all the `git*` mistakes (like `gitr ebase` or `gita dd .`)
 
 ## Examples
 
@@ -31,6 +33,12 @@ $ gt icommit
 ...
 $ gt stash
 # Becomes: git stash
+...
+$ gitr ebase
+# Becomes: git rebase
+...
+$ gitb ranch
+# Becomes: git branch
 ```
 
 ## Installation

@@ -15,3 +15,7 @@ gt() {
   shift # Remove the first parameter from the list of parameters, $@
   git "$first_param_without_leading_i" "$@"
 }
+
+for x in {a..z}; do
+  eval "git$x() { git \"$x\$@\"; }"
+done
